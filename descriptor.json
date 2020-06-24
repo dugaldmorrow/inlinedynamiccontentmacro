@@ -7,9 +7,7 @@
   "authentication": {
     "type": "none"
   },
-  "scopes": [
-    "read"
-  ],
+  "scopes": [],
   "enableLicensing": false,
   "modules": {
     "dynamicContentMacros": [
