@@ -14,12 +14,12 @@
   "modules": {
     "dynamicContentMacros": [
       {
-        "key": "my-inline-dynamic-content-macro-none",
+        "key": "my-inline-dynamic-content-macro",
         "name": {
-          "value": "RefApp: Inline Dynamic Content Macro - none"
+          "value": "Test Inline Dynamic Content Macro"
         },
         "description": {
-          "value": "RefApp: Inline Dynamic Content Macro description"
+          "value": "Testing of inline dynamic content macros sizing"
         },
         "url": "/inlinedynamiccontentmacro/InlineMacro.html?outputType={output.type}",
         "featured": true,
