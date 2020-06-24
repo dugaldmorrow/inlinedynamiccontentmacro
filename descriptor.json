@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "name": "Inline dynamic content macros sizing test",
   "description": "Testing of inline dynamic content macros sizing",
-  "baseUrl": "https://b3506566e1af.au.ngrok.io",
+  "baseUrl": "https://dugaldmorrow.github.io/inlinedynamiccontentmacro",
   "authentication": {
     "type": "none"
   },
@@ -21,7 +21,7 @@
         "description": {
           "value": "RefApp: Inline Dynamic Content Macro description"
         },
-        "url": "?outputType={output.type}/InlineMacro.html",
+        "url": "/InlineMacro.html?outputType={output.type}",
         "featured": true,
         "width": "100%",
         "height": "100%",
