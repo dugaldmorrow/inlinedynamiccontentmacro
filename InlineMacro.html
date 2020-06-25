@@ -6,14 +6,14 @@
     <script src="https://connect-cdn.atl-paas.net/all.js" data-options="resize:false" type="text/javascript"></script>
   </head>
   <body>
-    <section id="content" class="ac-content">
+    <span id="content" class="ac-content">
       <b>Hello World</b>
-    </section>
+    </span>
     <script type="text/javascript">
       $(window).load(function() {
-        var $macro = $("#content");
-        alert('Resizing macro to ' + $macro.outerWidth() + ', ' + $macro.outerHeight() + '...');
-        AP.resize($macro.outerWidth(), $macro.outerHeight());
+        var $content = $("#content");
+        alert('Resizing macro to ' + $content.outerWidth() + ', ' + $content.outerHeight() + '...');
+        AP.resize($content.outerWidth(), $content.outerHeight());
       });
     </script>
   </body>
