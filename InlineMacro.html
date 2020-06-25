@@ -3,18 +3,11 @@
   <head>
     <link rel="stylesheet" href="https://unpkg.com/@atlaskit/css-reset@2.0.0/dist/bundle.css" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://connect-cdn.atl-paas.net/all.js" data-options="resize:false" type="text/javascript"></script>
+    <script src="https://connect-cdn.atl-paas.net/all.js" data-options="resize:true" type="text/javascript"></script>
   </head>
   <body>
     <span id="content" class="ac-content">
       <b>Hello World</b>
     </span>
-    <script type="text/javascript">
-      $(window).load(function() {
-        var $content = $("#content");
-        alert('Resizing macro to ' + $content.outerWidth() + ', ' + $content.outerHeight() + '...');
-        AP.resize($content.outerWidth(), $content.outerHeight());
-      });
-    </script>
   </body>
 </html>
